@@ -9,16 +9,12 @@ if (localStorage.getItem('darkMode') === 'dark') {
     document.body.classList.remove('dark')
 }
 
-
 btnDarkMode.onclick = function () {
-
     btnDarkMode.classList.toggle('dark__mode-btn--active')
-
     const isDark = document.body.classList.toggle('dark')
-
+    
     if (isDark) {
         localStorage.setItem('darkMode', 'dark')
-
     } else {
         localStorage.setItem('darkMode', 'light')
     }
