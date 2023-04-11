@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+@import './reset.css';
+@import './nav.css';
+@import './dark.css';
+@import './header.css';
+@import './btn.css';
+@import './project.css';
+@import './content.css';
+@import './media.css';
+@import './title.css';
+@import './footer.css';
+@import './variables.css';
+
+html,
+body {
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: -0.5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--page-bg);
+    color: var(--text-color);
+}
+
+.case {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+.logo {
+    color: var(--header-text);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.section {
+    padding: 70px 0;
+}
+
+.social {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+
+

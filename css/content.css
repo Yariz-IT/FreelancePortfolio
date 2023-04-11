@@ -1,0 +1,25 @@
+.content-list {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    row-gap: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content-list a {
+    color: var(--accent);
+}
+
+.content-list__item {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content-list__item p+p {
+    font-size: 18px;
+    margin-top: 0.5em;
+
+}
